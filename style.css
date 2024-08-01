@@ -1,0 +1,18 @@
+.card{
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    animation: scroll 100s linear 10s infinite;
+}
+.card-home{
+    border-radius: 20px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
